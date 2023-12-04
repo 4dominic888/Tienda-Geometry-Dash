@@ -1,0 +1,86 @@
+/*Animations*/
+@keyframes move-head {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(0.4vw);
+    }
+}
+
+@keyframes move-hands-left {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-0.1vw);
+    }
+}
+
+@keyframes move-hands-right {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(0.1vw);
+    }
+}
+
+@keyframes parpadeo {
+    0%{
+        opacity: 1;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+/*Clases*/
+.img-hand{
+    display: flow-root;
+    position: absolute;
+
+    width: 4vw;
+    height: auto;
+}
+
+.img-body{
+
+    top: 15.4vw;
+    left: 67.5vw;
+    position: absolute;
+
+    width: 11vw;
+    height: auto;
+}
+
+.img-head{
+
+    position: absolute;
+
+    width: 14vw;
+    height: auto;
+    animation: move-head 2s linear infinite
+}
+
+.img-eye{
+    position: relative;
+    width: 3.5vw;
+}
+
+.img-pupil{
+    position: absolute;
+    bottom: 0.8vw;
+    width: 1.5vw;
+}
+
+.img-parpado{
+    opacity: 0;
+    position: relative;
+    width: 3.5vw;
+}

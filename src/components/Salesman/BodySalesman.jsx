@@ -1,5 +1,5 @@
 import React from 'react'
-import body from '../assets/body-salesman.png'
+import body from '../../assets/salesman-source/body-salesman.png'
 
 const BodySalesman = () => {
   return (

@@ -9,57 +9,22 @@
     object-fit: cover;
 }
 
-
-@keyframes move-head {
-    0%{
-        transform: translateY(0);
+@keyframes zoom-btn {
+    from{
+        transform: scale(1);
     }
-    50%{
-        transform: translateY(0.4vw);
-    }
-}
-
-@keyframes move-hands-left {
-    0%{
-        transform: translateX(0);
-    }
-    50%{
-        transform: translateX(-0.1vw);
+    to{
+        transform: scale(1.3);
     }
 }
 
-@keyframes move-hands-right {
-    0%{
-        transform: translateX(0);
-    }
-    50%{
-        transform: translateX(0.1vw);
-    }
-}
-
-.img-hand{
-    display: flow-root;
+.btn-music{
     position: absolute;
-
     width: 4vw;
-    height: auto;
+    transition: transform 0.3s ease-out;
 }
 
-.img-body{
 
-    top: 15.4vw;
-    left: 67.5vw;
-    position: absolute;
-
-    width: 11vw;
-    height: auto;
-}
-
-.img-head{
-
-    position: absolute;
-
-    width: 14vw;
-    height: auto;
-    animation: move-head 4s linear infinite
+.btn-music.active{
+    transform: scale(1.3);
 }

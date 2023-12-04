@@ -4,7 +4,6 @@ function App() {
   return (
     <div>
       <Background/>
-      no se que poner aca xd
     </div>
   );
 }

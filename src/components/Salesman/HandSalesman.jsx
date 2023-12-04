@@ -1,5 +1,5 @@
 import React from 'react' 
-import hand from '../assets/hand-salesman.png'
+import hand from '../../assets/salesman-source/hand-salesman.png'
 
 const HandSalesman = () => {
   return (

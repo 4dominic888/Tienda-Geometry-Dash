@@ -1,6 +1,7 @@
 import React from 'react'
-import head1 from '../assets/head1-salesman.png'
-import head2 from '../assets/head2-salesman.png'
+import head1 from '../../assets/salesman-source/head1-salesman.png'
+import head2 from '../../assets/salesman-source/head2-salesman.png'
+import EyeSalesman from './EyeSalesman'
 
 const HeadSalesman = () => {
   return (
@@ -12,6 +13,7 @@ const HeadSalesman = () => {
 
         <div className='img-head' style={{top: '12.4vw', left: '66.1vw'}}>
             <img src={head1} alt="mandibula" />
+            <EyeSalesman/>
         </div>
 
     </div>
