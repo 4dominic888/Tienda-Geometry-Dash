@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/Tienda-Geometry-Dash/static/css/main.cda4f612.css",
-    "main.js": "/Tienda-Geometry-Dash/static/js/main.375549df.js",
+    "main.css": "/Tienda-Geometry-Dash/static/css/main.587042b9.css",
+    "main.js": "/Tienda-Geometry-Dash/static/js/main.25755f76.js",
     "static/media/Background.png": "/Tienda-Geometry-Dash/static/media/Background.6207a4cc4b289f39af30.png",
+    "static/media/shop.mp3": "/Tienda-Geometry-Dash/static/media/shop.56f8f51d69413a7175eb.mp3",
     "static/media/head2-salesman.png": "/Tienda-Geometry-Dash/static/media/head2-salesman.b0c30be8f53d51405659.png",
+    "static/media/music-on.png": "/Tienda-Geometry-Dash/static/media/music-on.176b48442f1f9d3e988f.png",
     "static/media/head1-salesman.png": "/Tienda-Geometry-Dash/static/media/head1-salesman.e5f733dcb3b7e88d4275.png",
+    "static/media/music-off.png": "/Tienda-Geometry-Dash/static/media/music-off.665d800e5eb530384439.png",
     "static/media/body-salesman.png": "/Tienda-Geometry-Dash/static/media/body-salesman.b19a196fa230ca711562.png",
     "index.html": "/Tienda-Geometry-Dash/index.html",
-    "main.cda4f612.css.map": "/Tienda-Geometry-Dash/static/css/main.cda4f612.css.map",
-    "main.375549df.js.map": "/Tienda-Geometry-Dash/static/js/main.375549df.js.map"
+    "main.587042b9.css.map": "/Tienda-Geometry-Dash/static/css/main.587042b9.css.map",
+    "main.25755f76.js.map": "/Tienda-Geometry-Dash/static/js/main.25755f76.js.map"
   },
   "entrypoints": [
-    "static/css/main.cda4f612.css",
-    "static/js/main.375549df.js"
+    "static/css/main.587042b9.css",
+    "static/js/main.25755f76.js"
   ]
 }
